@@ -1,0 +1,32 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "wolfverse.ui_open": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/wolfverse/ui_open",
+          "is3D": false
+        }
+      ]
+    },
+    "wolfverse.level_up": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/wolfverse/level_up",
+          "is3D": false
+        }
+      ]
+    },
+    "wolfverse.quest_complete": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/wolfverse/quest_complete",
+          "is3D": false
+        }
+      ]
+    }
+  }
+}

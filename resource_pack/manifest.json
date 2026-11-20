@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "WOLFVERSE RP · Foundation 0.1",
+    "description": "BEYOND MINECRAFT · Nexus-AI-Omega · Development build; device testing pending.",
+    "uuid": "c0221c5f-e68d-495d-a4f4-d7848c5e359f",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "cf960ea4-7069-4131-9fa9-f94e919184c7",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@minecraft/server-ui",
+  "version": "2.0.0",
+  "license": "MIT",
+  "dist": {
+    "shasum": "2b2019843df9d7033e20668c1737a5543f9ae332",
+    "tarball": "https://registry.npmjs.org/@minecraft/server-ui/-/server-ui-2.0.0.tgz",
+    "fileCount": 3,
+    "integrity": "sha512-K1xFK1OEJSNfIgyRElaoxDTW/nbEqjBp1YnUdyPCs4kGDglwoXNyFz3wzMOkvT04CJXSifZGcTJeWda4C6OkXw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDon2xqtUamGgrxenTxHXdIhbxQtekOnksKh7qy7w4fqwIgQxqD0W1mZq1iC+VkinOT2vhOTMIgoCQ4p3m+sLPlt2c=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 25171
+  },
+  "dependencies": {
+    "@minecraft/common": "^1.0.0",
+    "@minecraft/server": "^2.0.0"
+  }
+}

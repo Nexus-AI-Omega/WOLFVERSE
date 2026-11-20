@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "tool_versions": {
+    "Pillow": "13.0.0",
+    "soundfile": "0.13.1",
+    "numpy": "2.3.5"
+  },
+  "files": [
+    {
+      "path": "resource_pack/pack_icon.png",
+      "format": "PNG",
+      "size": [
+        128,
+        128
+      ],
+      "decoded_verified": true,
+      "sha256": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063"
+    },
+    {
+      "path": "resource_pack/textures/items/wolfverse/codex.png",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "decoded_verified": true,
+      "sha256": "01b0e59ec22521765a88f10e4f9b309dce13af2e3fab1c7115bb6164fd517338"
+    },
+    {
+      "path": "resource_pack/textures/particle/wolfverse/spark.png",
+      "format": "PNG",
+      "size": [
+        8,
+        8
+      ],
+      "decoded_verified": true,
+      "sha256": "939f823877cc6253ed8640fd0ae7dba7d1633a92aba9b08d9b6ce35dc1ef7d06"
+    },
+    {
+      "path": "resource_pack/textures/ui/wolfverse/profile.png",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "decoded_verified": true,
+      "sha256": "ced0ead246772aab76d7834d7b53b877e80d38501b13fecd7d3e2d0af43e0add"
+    },
+    {
+      "path": "resource_pack/textures/ui/wolfverse/quest.png",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "decoded_verified": true,
+      "sha256": "92811f06557c9ae580b8afc4876601a09c23e7e825f9cb7727de382f86bb4f5d"
+    },
+    {
+      "path": "resource_pack/textures/ui/wolfverse/settings.png",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "decoded_verified": true,
+      "sha256": "02f22d7619dd8b857311b029e54725aec3b121edf3cff8ec167d154950a2fb1e"
+    },
+    {
+      "path": "resource_pack/textures/ui/wolfverse/shop.png",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "decoded_verified": true,
+      "sha256": "712079ca8f3f172a63587aa7ffae69563ccf025aed61400b07770670ce04a1fd"
+    },
+    {
+      "path": "behavior_pack/pack_icon.png",
+      "format": "PNG",
+      "size": [
+        128,
+        128
+      ],
+      "decoded_verified": true,
+      "sha256": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063"
+    },
+    {
+      "path": "resource_pack/sounds/wolfverse/level_up.ogg",
+      "sample_rate": 22050,
+      "samples": 9261,
+      "duration_seconds": 0.42,
+      "channels": 1,
+      "peak": 0.22294332087039948,
+      "decoded_verified": true,
+      "sha256": "7da3071affe985e1c89d091ec44fe03221df729d70c9e57d25fb01a8ba1ff0f1"
+    },
+    {
+      "path": "resource_pack/sounds/wolfverse/quest_complete.ogg",
+      "sample_rate": 22050,
+      "samples": 6615,
+      "duration_seconds": 0.3,
+      "channels": 1,
+      "peak": 0.2220952808856964,
+      "decoded_verified": true,
+      "sha256": "cfe919e1e7f456c93de58c310bb9901a5301a5b27d925c4886c2d461af9c255b"
+    },
+    {
+      "path": "resource_pack/sounds/wolfverse/ui_open.ogg",
+      "sample_rate": 22050,
+      "samples": 1874,
+      "duration_seconds": 0.08498866213151927,
+      "channels": 1,
+      "peak": 0.2249707281589508,
+      "decoded_verified": true,
+      "sha256": "2ca66326ee087c38178d4c9fb42553ff8c4b92d58135e1d1dbaf183883a324a4"
+    }
+  ],
+  "limits": "decoder/container tests only; no actual in-game visual, speaker or iPad test"
+}

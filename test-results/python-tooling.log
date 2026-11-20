@@ -1,0 +1,20 @@
+test_authored_local_markdown_links_resolve (test_documentation.Documentation.test_authored_local_markdown_links_resolve) ... ok
+test_final_reports_match_present_pack_files (test_documentation.Documentation.test_final_reports_match_present_pack_files) ... ok
+test_project_identity_matches_manifests (test_documentation.Documentation.test_project_identity_matches_manifests) ... ok
+test_required_research_evidence_exists (test_documentation.Documentation.test_required_research_evidence_exists) ... ok
+test_api_version_drift_is_detected (test_tools.PackTools.test_api_version_drift_is_detected) ... ok
+test_bad_png_header_is_detected (test_tools.PackTools.test_bad_png_header_is_detected) ... ok
+test_broken_texture_reference_is_detected (test_tools.PackTools.test_broken_texture_reference_is_detected) ... ok
+test_builds_are_byte_reproducible_and_contain_only_pack_files (test_tools.PackTools.test_builds_are_byte_reproducible_and_contain_only_pack_files) ... ok
+test_current_pack_passes (test_tools.PackTools.test_current_pack_passes) ... ok
+test_fake_secret_shaped_string_is_detected (test_tools.PackTools.test_fake_secret_shaped_string_is_detected) ... ok
+test_invalid_json_is_not_accepted (test_tools.PackTools.test_invalid_json_is_not_accepted) ... ok
+test_missing_manifest_is_a_reported_failure (test_tools.PackTools.test_missing_manifest_is_a_reported_failure) ... ok
+test_output_cannot_be_a_pack_subdirectory (test_tools.PackTools.test_output_cannot_be_a_pack_subdirectory) ... ok
+test_symbolic_links_are_rejected (test_tools.PackTools.test_symbolic_links_are_rejected) ... ok
+test_unsafe_script_import_is_detected (test_tools.PackTools.test_unsafe_script_import_is_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.146s
+
+OK

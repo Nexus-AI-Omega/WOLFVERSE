@@ -1,0 +1,26 @@
+# Dependencies, runtime copies and generated temporary test worlds
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Never put authentication or local secrets into this project
+.env
+.env.*
+!.env.example
+*credentials*
+*.key
+*.pem
+hosts.yml
+server.properties
+permissions.json
+allowlist.json
+
+# Native/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Project release artifacts and small sanitized test reports ARE versioned.
+# No game/server binaries, private backend config, worlds or external reference library.

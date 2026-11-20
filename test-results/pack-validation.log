@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Project-specific static checks, not exhaustive official schema validation or device certification."
+  ],
+  "files": 32,
+  "texture_count": 8,
+  "texture_rgba_bytes_estimate": 151808
+}

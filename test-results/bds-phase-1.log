@@ -1,0 +1,56 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-19 22:27:19:445 INFO] Starting Server
+[2026-11-19 22:27:19:445 INFO] Version: 1.26.66.1
+[2026-11-19 22:27:19:445 INFO] Session ID: [runtime-generated id omitted]
+[2026-11-19 22:27:19:445 INFO] Build ID: 53696239
+[2026-11-19 22:27:19:445 INFO] Branch: r/26_u6
+[2026-11-19 22:27:19:445 INFO] Commit ID: cb39b93aee4586408851619d83ed05780bbd842b
+[2026-11-19 22:27:19:445 INFO] Configuration: Publish
+[2026-11-19 22:27:19:445 INFO] Contents of server.properties: {"allow-cheats":"true","allow-list":"true","content-log-console-output-enabled":"true","content-log-file-enabled":"true","difficulty":"easy","emit-server-telemetry":"false","enable-lan-visibility":"false","gamemode":"survival","level-name":"WOLFVERSE_QA_DISPOSABLE","level-seed":"2026","level-type":"FLAT","max-players":"1","online-mode":"true","player-idle-timeout":"1","server-name":"WOLFVERSE isolated QA","server-port":"19142","server-portv6":"19143","texturepack-required":"true","tick-distance":"4","view-distance":"4"}
+[2026-11-19 22:27:19:445 INFO] Level Name: WOLFVERSE_QA_DISPOSABLE
+[2026-11-19 22:27:19:445 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-11-19 22:27:19:446 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-11-19 22:27:19:446 INFO] Game mode: 0 Survival
+[2026-11-19 22:27:19:446 INFO] Difficulty: 1 EASY
+[2026-11-19 22:27:19:448 INFO] Content logging to console is enabled.
+[2026-11-19 22:27:19:450 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-11-19 22:27:19:823 INFO] Content logging to disk is enabled. Writing log to: ./ContentLog2026-11-19_22-27-19.txt
+[2026-11-19 22:27:19:824 INFO] Opening level 'worlds/WOLFVERSE_QA_DISPOSABLE/db'
+[2026-11-19 22:27:19:825 INFO] Accepting clients on [::]:19142
+[2026-11-19 22:27:19:859 INFO] Pack Stack - [00] WOLFVERSE BP · Foundation 0.1 (id: 0124cf18-bb00-4cdb-abde-e0715597b859, version: 0.1.0) @ behavior_packs/wolfverse_qa
+[2026-11-19 22:27:19:910 WARN] [Scripting] [WOLFVERSE_QA] LOADED test-only
+
+[2026-11-19 22:27:19:911 WARN] [Scripting] [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+
+[2026-11-19 22:27:20:654 INFO] Signed in to signaling service successfully
+[2026-11-19 22:27:20:704 INFO] Waiting for Minecraft services...
+[2026-11-19 22:27:21:004 INFO] Server started.
+[2026-11-19 22:27:21:004 WARN] ================ ALLOW LIST WARNING ===================
+[2026-11-19 22:27:21:004 WARN] Allow list is enabled but contains no entries. 
+[2026-11-19 22:27:21:004 WARN] Use allowlist add <playername> for you and your friends so that they can access the server, or modify allowlist.json manually.
+[2026-11-19 22:27:21:004 WARN] 
+Alternatively, the allow list can be turned off by typing allowlist off or manually toggled in the server.properties file.
+[2026-11-19 22:27:21:004 WARN] =======================================================
+[2026-11-19 22:27:21:005 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-19 22:27:21:005 INFO] Server Telemetry is currently not enabled. 
+[2026-11-19 22:27:21:005 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-19 22:27:21:005 INFO] 
+[2026-11-19 22:27:21:005 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-19 22:27:21:005 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-19 22:27:21:005 INFO] ======================================================
+[2026-11-19 22:27:21:016 WARN] [Scripting] [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+
+[2026-11-19 22:27:21:205 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+[2026-11-19 22:27:21:205 INFO] Script event wolfverse_qa:run has been sent
+[2026-11-19 22:27:25:120 WARN] [Scripting] [WOLFVERSE_QA] RESULT {"phase":1,"passed":true,"checks":[{"name":"world_dynamic_property_restart","passed":true},{"name":"codex_item_registered","passed":true},{"name":"ui_binding_constructs_not_renders","passed":true},{"name":"entity_dynamic_profile_creation","passed":true},{"name":"entity_dynamic_profile_roundtrip","passed":true},{"name":"real_container_purchase","passed":true},{"name":"duplicate_intent_refused_in_engine","passed":true},{"name":"real_full_container_refund","passed":true},{"name":"dead_entity_id_type_location_access","passed":true},{"name":"death_event_received","passed":true}]}
+
+[2026-11-19 22:27:25:168 INFO] Server stop requested.
+[2026-11-19 22:27:25:216 INFO] Stopping server...
+Quit correctly

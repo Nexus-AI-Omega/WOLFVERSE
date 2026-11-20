@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wolfverse:codex",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.wolfverse:codex.name"
+      },
+      "minecraft:icon": "wolfverse_codex",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": false,
+      "minecraft:interact_button": "WOLFVERSE öffnen",
+      "minecraft:use_animation": "none",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.1,
+        "movement_modifier": 1.0
+      },
+      "wolfverse:open_codex": {}
+    }
+  }
+}

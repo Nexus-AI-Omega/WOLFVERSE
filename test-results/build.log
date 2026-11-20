@@ -1,0 +1,15 @@
+{
+  "file": "WOLFVERSE-Foundation-0.1.0.mcaddon",
+  "bytes": 28575,
+  "sha256": "cae4f0c90325bd48e752b27661a1ec2bfc1b6c3bfd8860e7d12c3fbef3039524",
+  "zip_crc_passed": true,
+  "deterministic_zip_date": [
+    2026,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "contains_world_or_third_party_runtime": false
+}

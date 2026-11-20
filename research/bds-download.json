@@ -1,0 +1,10 @@
+{
+  "official_url": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.66.1.zip",
+  "bytes": 98095547,
+  "sha256_locally_computed": "e87bcd95bec5cc34b065ca956825c6abb7a0c356ae79408302845069cecaa6bf",
+  "https_content_md5": "x+Q8i0OvuYw7D6+CZmNk3A==",
+  "content_md5_matched": true,
+  "etag": "\"0x8DF45BACD849D32\"",
+  "zip_crc_passed": true,
+  "runtime_in_repository": false
+}

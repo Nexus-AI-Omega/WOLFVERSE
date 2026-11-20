@@ -1,0 +1,21 @@
+{
+  "name": "@minecraft/server",
+  "version": "2.0.0",
+  "license": "MIT",
+  "dist": {
+    "shasum": "6d9c4c0a7e8d9990dcb657c6fde89469330fbf2e",
+    "tarball": "https://registry.npmjs.org/@minecraft/server/-/server-2.0.0.tgz",
+    "fileCount": 3,
+    "integrity": "sha512-X2LmT82eO0oCjOFaFgg6zoGenAUSyrG+YvIbe7/FSPj9hpMt4BtOIs7axoQUUvMx2NNbq8uEsnQadMMrDDBmUA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQD7xpdfuUNaBewli00LPuEHHmBJI4/HA0Pmdf54IpxL1wIgRc7Co15zKxFH8Yc4JqzRX3ac5lL/VFkPijv0o7twkHU=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 562143
+  },
+  "dependencies": {
+    "@minecraft/common": "^1.1.0"
+  }
+}

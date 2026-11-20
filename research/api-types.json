@@ -1,0 +1,107 @@
+{
+  "basis": "exact npm packages installed from package-lock; no runtime certification implied",
+  "packages": [
+    {
+      "package": "@minecraft/server",
+      "version": "2.0.0",
+      "index_dts_sha256": "9d59690cdabd54010961974eb1856e80a9f636e8b5acd566d411827146e8e210",
+      "observed_member_lines": {
+        "readonly startup:": [
+          [
+            15496,
+            "readonly startup: StartupBeforeEventSignal;"
+          ]
+        ],
+        "readonly itemComponentRegistry:": [
+          [
+            14862,
+            "readonly itemComponentRegistry: ItemComponentRegistry;"
+          ]
+        ],
+        "onUse?:": [
+          [
+            18021,
+            "onUse?: (arg0: ItemComponentUseEvent, arg1: CustomComponentParameters) => void;"
+          ]
+        ],
+        "setDynamicProperty(": [
+          [
+            5181,
+            "setDynamicProperty(identifier: string, value?: boolean | number | string | Vector3): void;"
+          ],
+          [
+            7070,
+            "setDynamicProperty(identifier: string, value?: boolean | number | string | Vector3): void;"
+          ],
+          [
+            11417,
+            "setDynamicProperty(identifier: string, value?: boolean | number | string | Vector3): void;"
+          ]
+        ],
+        "readonly isValid:": [
+          [
+            2575,
+            "readonly isValid: boolean;"
+          ],
+          [
+            4405,
+            "readonly isValid: boolean;"
+          ],
+          [
+            4518,
+            "readonly isValid: boolean;"
+          ]
+        ],
+        "getGameMode(": [
+          [
+            12370,
+            "getGameMode(): GameMode;"
+          ]
+        ],
+        "readonly entityDie:": [
+          [
+            16352,
+            "readonly entityDie: EntityDieAfterEventSignal;"
+          ]
+        ]
+      },
+      "unavailable_permission_member_probes": {
+        "isOp(": false,
+        "playerPermissionLevel": false,
+        "commandPermissionLevel": false
+      }
+    },
+    {
+      "package": "@minecraft/server-ui",
+      "version": "2.0.0",
+      "index_dts_sha256": "02ad54bc74b07f656abe597427ca9b382dd0eb1afacf31a5bc92d0fc1defd531",
+      "observed_member_lines": {
+        "class ActionFormData": [
+          [
+            106,
+            "export class ActionFormData {"
+          ]
+        ],
+        "show(player:": [
+          [
+            160,
+            "show(player: minecraftserver.Player): Promise<ActionFormResponse>;"
+          ],
+          [
+            368,
+            "show(player: minecraftserver.Player): Promise<MessageFormResponse>;"
+          ],
+          [
+            552,
+            "show(player: minecraftserver.Player): Promise<ModalFormResponse>;"
+          ]
+        ]
+      },
+      "unavailable_permission_member_probes": {
+        "isOp(": false,
+        "playerPermissionLevel": false,
+        "commandPermissionLevel": false
+      }
+    }
+  ]
+}

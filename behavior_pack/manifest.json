@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "WOLFVERSE BP · Foundation 0.1",
+    "description": "BEYOND MINECRAFT · Nexus-AI-Omega · Development build; device testing pending.",
+    "uuid": "0124cf18-bb00-4cdb-abde-e0715597b859",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a6b21fa7-4762-4d06-974e-fd0e2fdcdcea",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "0b02e432-0b71-4c5c-ab88-1766e7ad4793",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c0221c5f-e68d-495d-a4f4-d7848c5e359f",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

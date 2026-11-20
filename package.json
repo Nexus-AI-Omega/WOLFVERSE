@@ -1,0 +1,22 @@
+{
+  "name": "wolfverse",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WOLFVERSE — BEYOND MINECRAFT. Created by Nexus-AI-Omega.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "typecheck": "tsc --noEmit",
+    "validate": "python3 tools/validate.py",
+    "build": "python3 tools/build.py",
+    "verify": "python3 tools/verify.py"
+  },
+  "devDependencies": {
+    "@minecraft/common": "1.1.0",
+    "@minecraft/server": "2.0.0",
+    "@minecraft/server-ui": "2.0.0",
+    "typescript": "5.9.3"
+  },
+  "overrides": { "@minecraft/common": "1.1.0" }
+}

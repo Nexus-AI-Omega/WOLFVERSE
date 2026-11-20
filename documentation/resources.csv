@@ -1,0 +1,25 @@
+resource,system,milestone,type,status,path,rights,notes
+brand,foundation,M0,vector/logo,created,assets/brand.svg,Original project asset;public license not selected,"branding,not an in-game screenshot"
+pack-icons,foundation,M0,2 PNG 128x128,created,BP/RP pack_icon.png,Original procedural pixel art,shared wolf silhouette
+codex,foundation,M0,PNG 32x32,created,RP/textures/items/wolfverse/codex.png,Original procedural pixel art,item icon
+menu-icons,foundation,M0,4 PNG 32x32,created,RP/textures/ui/wolfverse/*.png,Original procedural pixel art,profile/quest/shop/settings
+spark,foundation,M0,PNG 8x8 + particle JSON,created,RP/textures/particle/wolfverse/spark.png;particles/level_up.json,Original procedural asset,"12 particles/event,0.8s lifetime"
+ui-sounds,foundation,M0,3 short mono Ogg/Vorbis 22050Hz,created,RP/sounds/wolfverse/*.ogg,Original synthesized tones,open/level/quest;no voices or music
+codex-localization,foundation,M0,2 lang files,created,RP/texts/de_DE.lang;en_US.lang,Original text,menu copy currently German
+fox-base,companion,M1,geometry + texture + client entity,planned,not created,must be original or separately verified,one coherent fox model first;no vanilla override
+fox-animation,companion,M1,animation + controller,planned,not created,original required,idle/walk/run/follow/wait/recall;loaded lifecycle gate
+fox-audio,companion,M1,short original voice/effects,planned,not created,original/licensed required,call/acknowledge/evolve;volume budget
+fox-variants,companion,M8,6 variant palettes/accents,planned,not created,original required,Frost/Shadow/Flame/Mystic/Ancient/Royal;reuse geometry intentionally
+fox-evolution,companion,M8,5 stage silhouettes/animation accents,planned,not created,original required,functional evolution before visual count inflation
+classes,rpg,M2,5 symbols + 5 skill VFX/audio sets,planned,not created,original required,Krieger/Magier/Assassine/Paladin/Bogenschütze
+magic,magic,M2/M3,9 element color/form/audio families,planned,not created,original required,bounded particles;accessible non-color-only cues
+creatures,creatures,M3/M8,geometry/skin/animation/sound/loot/lore per creature,planned,not created,provenance per asset,peaceful/neutral/hostile/elite;no missing half-creatures
+void-king,boss,M4,model/texture/4-phase animations/audio/icons,planned,not created,original required,first boss;designed and tested before extra named bosses
+other-bosses,boss,M8,6 complete boss resource sets,planned,not created,original required,Ancient Dragon/Frost Titan/Shadow Emperor/Crystal Overlord/Corrupted Guardian/Abyss Monarch
+dungeon-one,dungeon,M4,structure templates/room kit/puzzle props/audio,planned,not created,original required,entrance/key/rooms/waves/puzzles/traps/reward chest
+voidblade,equipment,M5,3D model/attachable/texture/animation/skill effects,planned,not created,original required,real Void Slash;item inventory integration not replacement
+armor-materials,equipment,M5,armor/item models/textures/icons,planned,not created,original required,set bonuses/upgrades/repair backed by mechanics
+world-kit,world,M5,structures/terrain palettes/props,planned,not created,original required,ruins/forests/caves/temples;new biome feasibility gate
+event-kit,world-events,M5,4 event icon/VFX/audio sets,planned,not created,original required,Blood Moon/Dragon Invasion/Treasure Hunt/Ancient Awakening
+npc,npc,M3,NPC model/skin/dialogue portrait/sound,planned,not created,original/licensed required,only after validated interaction loop
+screenshots,documentation,post-device-gate,actual device screenshots,not available,not created,capture consent;hide player data,never substitute marketing renders for test evidence

@@ -1,0 +1,8 @@
+{
+  "provenance": "Original procedural Foundation art and sound; no copied Minecraft/third-party media",
+  "generator": "tools/create_assets.py",
+  "model_assets_created": false,
+  "in_game_screenshots_created": false,
+  "sound_sample_rate": 22050,
+  "sound_peak_target": 0.22
+}

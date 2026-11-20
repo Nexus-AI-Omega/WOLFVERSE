@@ -1,0 +1,158 @@
+{
+  "recorded_at_utc": "2026-11-19T22:27:32.245118+00:00",
+  "official_runtime_binary_sha256": "dba89ef48dfd54b26ecaaff2554bfb0f06008a37a1645285c42d2fd62f409887",
+  "all_passed": true,
+  "phases": [
+    {
+      "phase": 1,
+      "exit_code": 0,
+      "ready": true,
+      "server_version": "1.26.66.1",
+      "result": {
+        "phase": 1,
+        "passed": true,
+        "checks": [
+          {
+            "name": "world_dynamic_property_restart",
+            "passed": true
+          },
+          {
+            "name": "codex_item_registered",
+            "passed": true
+          },
+          {
+            "name": "ui_binding_constructs_not_renders",
+            "passed": true
+          },
+          {
+            "name": "entity_dynamic_profile_creation",
+            "passed": true
+          },
+          {
+            "name": "entity_dynamic_profile_roundtrip",
+            "passed": true
+          },
+          {
+            "name": "real_container_purchase",
+            "passed": true
+          },
+          {
+            "name": "duplicate_intent_refused_in_engine",
+            "passed": true
+          },
+          {
+            "name": "real_full_container_refund",
+            "passed": true
+          },
+          {
+            "name": "dead_entity_id_type_location_access",
+            "passed": true
+          },
+          {
+            "name": "death_event_received",
+            "passed": true
+          }
+        ]
+      },
+      "content_or_script_errors": [],
+      "passed": true
+    },
+    {
+      "phase": 2,
+      "exit_code": 0,
+      "ready": true,
+      "server_version": "1.26.66.1",
+      "result": {
+        "phase": 2,
+        "passed": true,
+        "checks": [
+          {
+            "name": "world_dynamic_property_restart",
+            "passed": true
+          },
+          {
+            "name": "codex_item_registered",
+            "passed": true
+          },
+          {
+            "name": "ui_binding_constructs_not_renders",
+            "passed": true
+          },
+          {
+            "name": "entity_dynamic_profile_creation",
+            "passed": true
+          },
+          {
+            "name": "entity_dynamic_profile_roundtrip",
+            "passed": true
+          },
+          {
+            "name": "real_container_purchase",
+            "passed": true
+          },
+          {
+            "name": "duplicate_intent_refused_in_engine",
+            "passed": true
+          },
+          {
+            "name": "real_full_container_refund",
+            "passed": true
+          },
+          {
+            "name": "dead_entity_id_type_location_access",
+            "passed": true
+          },
+          {
+            "name": "death_event_received",
+            "passed": true
+          }
+        ]
+      },
+      "content_or_script_errors": [],
+      "passed": true
+    }
+  ],
+  "pack_sha256": {
+    "behavior_pack/items/codex.json": "b5c42a0e5ceda421e6dada8291f64ca8e8868f136889fd4c4249991daa2564f7",
+    "behavior_pack/manifest.json": "ff8bcbd61f7ef25ef85071fc8a333578745cd3be2cb7e4076db3f0a0493cee6f",
+    "behavior_pack/pack_icon.png": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063",
+    "behavior_pack/recipes/codex.json": "e8973658ccee08d70611c39076dbcb6797ce3c76d3b18b5eacdb7f03da35199b",
+    "behavior_pack/scripts/core/configuration.js": "537982e30ea91e28fc9a433cf25af38b5b0e48f5bcedc2ae2e65026c77fa2ddc",
+    "behavior_pack/scripts/core/data_manager.js": "e2241b307a1233d2aa07326249fbb2daf3165aa8d967d21cf64325ea50347497",
+    "behavior_pack/scripts/core/errors.js": "6f442ae8f369b61b0bc5926d08d45bc6990edd98b36e02fe9a9e985fe6a8c97a",
+    "behavior_pack/scripts/core/event_manager.js": "d569af88a100eafe0d36d49f20848e4c20e108b963c7614236be1f48d6976116",
+    "behavior_pack/scripts/core/initialization.js": "d86c171b152fe52116414167dba00e23f071bb6587f9707e3b76165b8a6dfb8d",
+    "behavior_pack/scripts/core/security.js": "635a68d99177b8e017bbc124a15cf38a4d07fc176e564b7902839a49979dbb3e",
+    "behavior_pack/scripts/domain/profile.js": "e1a9a2e8b5c7b87f6c587b70673285c35f7c74bfb0597ec8efd675d90616bac3",
+    "behavior_pack/scripts/domain/progression.js": "237cafbce6478bff1580969375475018f66f55689a067432a62ebec26c22a84b",
+    "behavior_pack/scripts/main.js": "247ac1f3ca049e51d328a0bb34c502354040aca511c8d654ae3cbb4a0214dcb5",
+    "behavior_pack/scripts/systems/economy.js": "793f7b54a68fc9d9de4171ac930041694e602efc0dac0addc518d429c3837a28",
+    "behavior_pack/scripts/systems/player_service.js": "cbcddb30759d6b6dadb4e966ed56790cc95894aef5baede13a81f92ea2c5b955",
+    "behavior_pack/scripts/ui/menu.js": "aef045626667b0dca74001d4a6587414575d5d4c929931287976d51eff74512f",
+    "resource_pack/manifest.json": "7eff83796447ecc9e38c74484ffd866a5e9ac976d155de37f408371dcdc98393",
+    "resource_pack/pack_icon.png": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063",
+    "resource_pack/particles/level_up.json": "8880e1a503cf6b65f7537e96b815e4c69ce6f36c778876c585fed9d67dadb23e",
+    "resource_pack/sounds/sound_definitions.json": "3d4534980fa23ee1c005351a8ca2ac1e9cd376f0211c572ad958bbd857c47db3",
+    "resource_pack/sounds/wolfverse/level_up.ogg": "7da3071affe985e1c89d091ec44fe03221df729d70c9e57d25fb01a8ba1ff0f1",
+    "resource_pack/sounds/wolfverse/quest_complete.ogg": "cfe919e1e7f456c93de58c310bb9901a5301a5b27d925c4886c2d461af9c255b",
+    "resource_pack/sounds/wolfverse/ui_open.ogg": "2ca66326ee087c38178d4c9fb42553ff8c4b92d58135e1d1dbaf183883a324a4",
+    "resource_pack/texts/de_DE.lang": "d0a1858b0e559f30863725f5cdd91d11bfba1dd8cd460a3f1c16912ff9eb9cac",
+    "resource_pack/texts/en_US.lang": "4fb3c36e182648c7d8cffb2dd6d0f73134d58a05c3329f8e787a6998bdb9b75f",
+    "resource_pack/textures/item_texture.json": "cd8c5eda4eab5053d82ac524ec7bf61378fca268e7c67b9383201ca5e9d7773c",
+    "resource_pack/textures/items/wolfverse/codex.png": "01b0e59ec22521765a88f10e4f9b309dce13af2e3fab1c7115bb6164fd517338",
+    "resource_pack/textures/particle/wolfverse/spark.png": "939f823877cc6253ed8640fd0ae7dba7d1633a92aba9b08d9b6ce35dc1ef7d06",
+    "resource_pack/textures/ui/wolfverse/profile.png": "ced0ead246772aab76d7834d7b53b877e80d38501b13fecd7d3e2d0af43e0add",
+    "resource_pack/textures/ui/wolfverse/quest.png": "92811f06557c9ae580b8afc4876601a09c23e7e825f9cb7727de382f86bb4f5d",
+    "resource_pack/textures/ui/wolfverse/settings.png": "02f22d7619dd8b857311b029e54725aec3b121edf3cff8ec167d154950a2fb1e",
+    "resource_pack/textures/ui/wolfverse/shop.png": "712079ca8f3f172a63587aa7ffae69563ccf025aed61400b07770670ce04a1fd"
+  },
+  "real_players_connected": 0,
+  "test_only_script_in_release": false,
+  "limits": [
+    "actual engine with empty allow-list, not an authenticated client session",
+    "real Entity Dynamic Properties and Block Container, not Player rejoin storage",
+    "form construction is NOT native UI rendering",
+    "World Dynamic Property restart persistence, not crash durability",
+    "no client graphics/audio, Realm, multiplayer or FPS evidence"
+  ]
+}

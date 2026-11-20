@@ -1,0 +1,26 @@
+{
+  "name": "WOLFVERSE",
+  "subtitle": "BEYOND MINECRAFT",
+  "developer": "Nexus-AI-Omega",
+  "version": [
+    0,
+    1,
+    0
+  ],
+  "min_engine_version": [
+    1,
+    21,
+    90
+  ],
+  "server_api": "2.0.0",
+  "server_ui_api": "2.0.0",
+  "preview_allowed_by_user": true,
+  "core_requires_experiments": false,
+  "ids": {
+    "bp": "0124cf18-bb00-4cdb-abde-e0715597b859",
+    "bpm": "a6b21fa7-4762-4d06-974e-fd0e2fdcdcea",
+    "script": "0b02e432-0b71-4c5c-ab88-1766e7ad4793",
+    "rp": "c0221c5f-e68d-495d-a4f4-d7848c5e359f",
+    "rpm": "cf960ea4-7069-4131-9fa9-f94e919184c7"
+  }
+}

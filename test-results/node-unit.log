@@ -1,0 +1,322 @@
+
+> wolfverse@0.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: new profile is valid and schema-versioned
+ok 1 - new profile is valid and schema-versioned
+  ---
+  duration_ms: 1.729291
+  ...
+# Subtest: undefined storage creates a profile; malformed storage is not silently reset
+ok 2 - undefined storage creates a profile; malformed storage is not silently reset
+  ---
+  duration_ms: 0.804634
+  ...
+# Subtest: legacy v1 migration preserves declared XP/coins/quest/HUD
+ok 3 - legacy v1 migration preserves declared XP/coins/quest/HUD
+  ---
+  duration_ms: 0.232684
+  ...
+# Subtest: future schema rejected without overwriting old data
+ok 4 - future schema rejected without overwriting old data
+  ---
+  duration_ms: 0.30189
+  ...
+# Subtest: coin validation rejects -1
+ok 5 - coin validation rejects -1
+  ---
+  duration_ms: 0.179549
+  ...
+# Subtest: coin validation rejects 0.5
+ok 6 - coin validation rejects 0.5
+  ---
+  duration_ms: 0.140298
+  ...
+# Subtest: coin validation rejects NaN
+ok 7 - coin validation rejects NaN
+  ---
+  duration_ms: 0.110269
+  ...
+# Subtest: coin validation rejects Infinity
+ok 8 - coin validation rejects Infinity
+  ---
+  duration_ms: 0.155805
+  ...
+# Subtest: coin validation rejects 5
+ok 9 - coin validation rejects 5
+  ---
+  duration_ms: 0.181373
+  ...
+# Subtest: coin validation rejects 1000000001
+ok 10 - coin validation rejects 1000000001
+  ---
+  duration_ms: 0.23627
+  ...
+# Subtest: unknown privilege-like root field rejected
+ok 11 - unknown privilege-like root field rejected
+  ---
+  duration_ms: 0.198337
+  ...
+# Subtest: UTF-8 budget counts non-ASCII and supplementary characters
+ok 12 - UTF-8 budget counts non-ASCII and supplementary characters
+  ---
+  duration_ms: 0.211165
+  ...
+# Subtest: repository revisions reject stale updates
+ok 13 - repository revisions reject stale updates
+  ---
+  duration_ms: 0.750997
+  ...
+# Subtest: repository returns copies and failed validation does not mutate storage
+ok 14 - repository returns copies and failed validation does not mutate storage
+  ---
+  duration_ms: 0.888127
+  ...
+# Subtest: repository byte limit fails before write
+ok 15 - repository byte limit fails before write
+  ---
+  duration_ms: 1.667865
+  ...
+# Subtest: async mutations and reentrant profile updates fail closed
+ok 16 - async mutations and reentrant profile updates fail closed
+  ---
+  duration_ms: 0.627761
+  ...
+# Subtest: level boundaries and cap follow real XP curve
+ok 17 - level boundaries and cap follow real XP curve
+  ---
+  duration_ms: 0.225566
+  ...
+# Subtest: survival hostile kill grants real XP and quest progress
+ok 18 - survival hostile kill grants real XP and quest progress
+  ---
+  duration_ms: 0.326719
+  ...
+# Subtest: ineligible kill cannot generate rewards: {"typeId":"minecraft:cow","survival":true,"distance":1}
+ok 19 - ineligible kill cannot generate rewards: {"typeId":"minecraft:cow","survival":true,"distance":1}
+  ---
+  duration_ms: 0.185211
+  ...
+# Subtest: ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":false,"distance":1}
+ok 20 - ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":false,"distance":1}
+  ---
+  duration_ms: 0.17688
+  ...
+# Subtest: ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":true,"distance":100}
+ok 21 - ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":true,"distance":100}
+  ---
+  duration_ms: 0.244038
+  ...
+# Subtest: ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":true,"distance":null}
+ok 22 - ineligible kill cannot generate rewards: {"typeId":"minecraft:zombie","survival":true,"distance":null}
+  ---
+  duration_ms: 0.078847
+  ...
+# Subtest: persistent reward spacing and rolling budget cap fast farming
+ok 23 - persistent reward spacing and rolling budget cap fast farming
+  ---
+  duration_ms: 0.22598
+  ...
+# Subtest: clock rollback does not reset farming budget
+ok 24 - clock rollback does not reset farming budget
+  ---
+  duration_ms: 0.141782
+  ...
+# Subtest: quest reward and completion are one update and cannot be claimed twice
+ok 25 - quest reward and completion are one update and cannot be claimed twice
+  ---
+  duration_ms: 0.22369
+  ...
+# Subtest: incomplete or unknown quest gives nothing
+ok 26 - incomplete or unknown quest gives nothing
+  ---
+  duration_ms: 0.135027
+  ...
+# Subtest: purchase debits configured price and delivers exactly one item in a successful synchronous operation
+ok 27 - purchase debits configured price and delivers exactly one item in a successful synchronous operation
+  ---
+  duration_ms: 0.93444
+  ...
+# Subtest: same intent cannot buy twice
+ok 28 - same intent cannot buy twice
+  ---
+  duration_ms: 0.542524
+  ...
+# Subtest: insufficient funds cannot debit or deliver
+ok 29 - insufficient funds cannot debit or deliver
+  ---
+  duration_ms: 0.409296
+  ...
+# Subtest: full inventory returns coins without creating items
+ok 30 - full inventory returns coins without creating items
+  ---
+  duration_ms: 0.335835
+  ...
+# Subtest: expired and cross-player intents rejected
+ok 31 - expired and cross-player intents rejected
+  ---
+  duration_ms: 0.370304
+  ...
+# Subtest: client cannot choose arbitrary or prototype product
+ok 32 - client cannot choose arbitrary or prototype product
+  ---
+  duration_ms: 0.352063
+  ...
+# Subtest: stale intent revision cannot spend changed profile
+ok 33 - stale intent revision cannot spend changed profile
+  ---
+  duration_ms: 0.425813
+  ...
+# Subtest: uncertain inventory result throw-before quarantines, never blindly redelivers
+ok 34 - uncertain inventory result throw-before quarantines, never blindly redelivers
+  ---
+  duration_ms: 0.504813
+  ...
+# Subtest: uncertain inventory result throw-after quarantines, never blindly redelivers
+ok 35 - uncertain inventory result throw-after quarantines, never blindly redelivers
+  ---
+  duration_ms: 0.40019
+  ...
+# Subtest: storage failure before the accepted debit prevents delivery
+ok 36 - storage failure before the accepted debit prevents delivery
+  ---
+  duration_ms: 0.331669
+  ...
+# Subtest: storage failure after delivery leaves serialized pending record across repository restart
+ok 37 - storage failure after delivery leaves serialized pending record across repository restart
+  ---
+  duration_ms: 0.469892
+  ...
+# Subtest: manual trusted-server confirmation clears uncertainty without creating another item
+ok 38 - manual trusted-server confirmation clears uncertainty without creating another item
+  ---
+  duration_ms: 0.509849
+  ...
+# Subtest: manual verified non-delivery refund restores funds once only
+ok 39 - manual verified non-delivery refund restores funds once only
+  ---
+  duration_ms: 0.523129
+  ...
+# Subtest: non-server, block, NPC or player-shaped script events cannot enter recovery endpoint
+ok 40 - non-server, block, NPC or player-shaped script events cannot enter recovery endpoint
+  ---
+  duration_ms: 0.29426
+  ...
+# Subtest: event handler failure isolated; unsubscribe works
+ok 41 - event handler failure isolated; unsubscribe works
+  ---
+  duration_ms: 0.245512
+  ...
+# Subtest: repository prevents mutating stable identity and revision counters
+ok 42 - repository prevents mutating stable identity and revision counters
+  ---
+  duration_ms: 0.938391
+  ...
+# Subtest: oversized stored JSON is rejected before decode and not overwritten
+ok 43 - oversized stored JSON is rejected before decode and not overwritten
+  ---
+  duration_ms: 1.554065
+  ...
+# Subtest: reopening the shop replaces this owner intent rather than exhausting global capacity
+ok 44 - reopening the shop replaces this owner intent rather than exhausting global capacity
+  ---
+  duration_ms: 4.625601
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: startup registers usable component; join creates isolated profiles and Codex
+ok 45 - simulation: startup registers usable component; join creates isolated profiles and Codex
+  ---
+  duration_ms: 30.130802
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: registered Codex onUse schedules real menu controller and no placeholder buttons
+ok 46 - simulation: registered Codex onUse schedules real menu controller and no placeholder buttons
+  ---
+  duration_ms: 6.224398
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: kill adapter applies XP once per entity and excludes Creative/passive kills
+ok 47 - simulation: kill adapter applies XP once per entity and excludes Creative/passive kills
+  ---
+  duration_ms: 12.105977
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: three paced kills, native-form intents, one quest claim and actual inventory adapter purchase
+ok 48 - simulation: three paced kills, native-form intents, one quest claim and actual inventory adapter purchase
+  ---
+  duration_ms: 8.232659
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: full inventory is not charged
+ok 49 - simulation: full inventory is not charged
+  ---
+  duration_ms: 6.252246
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: HUD, sound, quality and accent settings change actual presentation paths
+ok 50 - simulation: HUD, sound, quality and accent settings change actual presentation paths
+  ---
+  duration_ms: 4.042188
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# [WOLFVERSE] ui_action stale_revision
+# Subtest: simulation: a changed profile revision during a form rejects the old action
+ok 51 - simulation: a changed profile revision during a form rejects the old action
+  ---
+  duration_ms: 10.351104
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: leave/rejoin cleans UI session and retains the supplied player property store
+ok 52 - simulation: leave/rejoin cleans UI session and retains the supplied player property store
+  ---
+  duration_ms: 5.634805
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# [WOLFVERSE] ui ui_selection_invalid
+# Subtest: simulation: invalid form selection cannot call an action
+ok 53 - simulation: invalid form selection cannot call an action
+  ---
+  duration_ms: 6.355852
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# [WOLFVERSE] script_event admin_source_required
+# [WOLFVERSE] AUDIT purchase_resolved refund uncertain
+# Subtest: simulation: recovery denies entity/NPC/block sources, including forged Server with a source entity
+ok 54 - simulation: recovery denies entity/NPC/block sources, including forged Server with a source entity
+  ---
+  duration_ms: 4.340363
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: playtime uses session elapsed ticks, not a full minute for a late join
+ok 55 - simulation: playtime uses session elapsed ticks, not a full minute for a late join
+  ---
+  duration_ms: 4.998817
+  ...
+# [WOLFVERSE] COMPONENT_REGISTERED wolfverse:open_codex
+# [WOLFVERSE] READY 0.1.0 core=stable-2.0 no-network
+# Subtest: simulation: death statistics are real profile mutations
+ok 56 - simulation: death statistics are real profile mutations
+  ---
+  duration_ms: 3.438945
+  ...
+1..56
+# tests 56
+# suites 0
+# pass 56
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 345.594587

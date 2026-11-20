@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "WOLFVERSE",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wolfverse_codex": {
+      "textures": "textures/items/wolfverse/codex"
+    }
+  }
+}
