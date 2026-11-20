@@ -40,7 +40,7 @@ Klassen, Skilltrees, Magie, VOID KING, Dungeons, zusätzliche Währungen, Clans 
 
 ## Entwicklung
 
-Node.js 20+ und Python 3.10+; keine Modloader, keine Java-Edition-Befehle, keine globalen Node-Pakete nötig.
+Node.js 20.6+ und Python 3.10+; keine Modloader, keine Java-Edition-Befehle, keine globalen Node-Pakete nötig.
 
 ```sh
 npm ci --ignore-scripts --no-audit --no-fund
@@ -59,7 +59,7 @@ Das erzeugt Prüfberichte in `test-results/` und ein deterministisches `.mcaddon
 
 ## Was GitHub speichert – und was nicht
 
-Dieses Projekt soll im ausdrücklich gewünschten **neuen privaten Repository WOLFVERSE** versioniert werden. Der nachweisbare Remote-Stand steht in `documentation/repository.md`; ohne erfolgreichen Push ist eine lokale Datei noch kein GitHub-Backup.
+Dieses Projekt wurde im ausdrücklich gewünschten **neuen privaten Repository [Nexus-AI-Omega/WOLFVERSE](https://github.com/Nexus-AI-Omega/WOLFVERSE)** gesichert. Der vollständige Remote-Dateivergleich und der geprüfte Commit stehen im [Sicherungsnachweis](documentation/repository.md). Ohne erfolgreichen neuen Push ist ein späterer lokaler Arbeitsstand noch kein GitHub-Backup.
 
 Versioniert werden Quellcode, Originalassets, Dokumentation, Lockfile, kleine Prüfberichte und der Entwicklungsbuild. **Minecraft-Welten/Spielstände sind nicht enthalten** und benötigen eigene Weltbackups. Es läuft kein versteckter dauerhafter Cloud-Autosave und kein KI-Backend. Neue abgeschlossene Arbeitsstände müssen jeweils erneut committed und gepusht werden.
 

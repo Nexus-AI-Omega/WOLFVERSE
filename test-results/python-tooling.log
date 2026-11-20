@@ -15,6 +15,6 @@ test_symbolic_links_are_rejected (test_tools.PackTools.test_symbolic_links_are_r
 test_unsafe_script_import_is_detected (test_tools.PackTools.test_unsafe_script_import_is_detected) ... ok
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.146s
+Ran 15 tests in 0.159s
 
 OK

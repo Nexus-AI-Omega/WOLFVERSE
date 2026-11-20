@@ -1,0 +1,400 @@
+{
+  "recorded_at_utc": "2026-11-20T06:11:51.938804+00:00",
+  "repository": "https://github.com/Nexus-AI-Omega/WOLFVERSE",
+  "private_verified": true,
+  "branch": "main",
+  "local_commit": "31a8205318b5c047e7f07235b6eb11e3af304d21",
+  "remote_commit": "31a8205318b5c047e7f07235b6eb11e3af304d21",
+  "files_verified": 95,
+  "total_source_bytes": 307334,
+  "zip_crc_passed": true,
+  "every_tracked_remote_file_byte_equal": true,
+  "archive_sha256": "92bb09a595caf2c9cc8d4d595afff1c4693820dce7919d98c88c862d2893f0a3",
+  "credential_found_in_remote_files": false,
+  "files": {
+    ".gitignore": {
+      "bytes": 508,
+      "sha256": "6a38329b0d0493c79444df72301554a423494142fcf01fa1f3bb23a0a0604158"
+    },
+    "CHANGELOG.md": {
+      "bytes": 1710,
+      "sha256": "c53bbf4d395f66b2a27000c6c6236f5d86069a87ef5f6cc39bfa432b1e270f6e"
+    },
+    "LICENSE.md": {
+      "bytes": 788,
+      "sha256": "604faf8cc7dda0d8e9eed43634a3a209dbb4c503ee2ce95e552af759e3bf36ee"
+    },
+    "README.md": {
+      "bytes": 5851,
+      "sha256": "dacad7ed9bf0273776ba4eb5389aad8aadc9f1bedd784b6d1f6793eb7db2d084"
+    },
+    "artifacts/WOLFVERSE-Foundation-0.1.0.mcaddon": {
+      "bytes": 28575,
+      "sha256": "cae4f0c90325bd48e752b27661a1ec2bfc1b6c3bfd8860e7d12c3fbef3039524"
+    },
+    "artifacts/build.json": {
+      "bytes": 4002,
+      "sha256": "951689777b1683dc423fa8965292147d2e3f8f68e9cae2859df73ffdd530ee79"
+    },
+    "assets/brand.svg": {
+      "bytes": 790,
+      "sha256": "53527ae764c4068cec0b1e3070d0a6b9129cb1a95996b1c63d6e387709ef2dd6"
+    },
+    "behavior_pack/items/codex.json": {
+      "bytes": 659,
+      "sha256": "b5c42a0e5ceda421e6dada8291f64ca8e8868f136889fd4c4249991daa2564f7"
+    },
+    "behavior_pack/manifest.json": {
+      "bytes": 1054,
+      "sha256": "ff8bcbd61f7ef25ef85071fc8a333578745cd3be2cb7e4076db3f0a0493cee6f"
+    },
+    "behavior_pack/pack_icon.png": {
+      "bytes": 902,
+      "sha256": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063"
+    },
+    "behavior_pack/recipes/codex.json": {
+      "bytes": 530,
+      "sha256": "e8973658ccee08d70611c39076dbcb6797ce3c76d3b18b5eacdb7f03da35199b"
+    },
+    "behavior_pack/scripts/core/configuration.js": {
+      "bytes": 960,
+      "sha256": "537982e30ea91e28fc9a433cf25af38b5b0e48f5bcedc2ae2e65026c77fa2ddc"
+    },
+    "behavior_pack/scripts/core/data_manager.js": {
+      "bytes": 1953,
+      "sha256": "e2241b307a1233d2aa07326249fbb2daf3165aa8d967d21cf64325ea50347497"
+    },
+    "behavior_pack/scripts/core/errors.js": {
+      "bytes": 336,
+      "sha256": "6f442ae8f369b61b0bc5926d08d45bc6990edd98b36e02fe9a9e985fe6a8c97a"
+    },
+    "behavior_pack/scripts/core/event_manager.js": {
+      "bytes": 551,
+      "sha256": "d569af88a100eafe0d36d49f20848e4c20e108b963c7614236be1f48d6976116"
+    },
+    "behavior_pack/scripts/core/initialization.js": {
+      "bytes": 7372,
+      "sha256": "d86c171b152fe52116414167dba00e23f071bb6587f9707e3b76165b8a6dfb8d"
+    },
+    "behavior_pack/scripts/core/security.js": {
+      "bytes": 341,
+      "sha256": "635a68d99177b8e017bbc124a15cf38a4d07fc176e564b7902839a49979dbb3e"
+    },
+    "behavior_pack/scripts/domain/profile.js": {
+      "bytes": 4947,
+      "sha256": "e1a9a2e8b5c7b87f6c587b70673285c35f7c74bfb0597ec8efd675d90616bac3"
+    },
+    "behavior_pack/scripts/domain/progression.js": {
+      "bytes": 2380,
+      "sha256": "237cafbce6478bff1580969375475018f66f55689a067432a62ebec26c22a84b"
+    },
+    "behavior_pack/scripts/globals.d.ts": {
+      "bytes": 136,
+      "sha256": "936daf92ce2a56cd105e7bfaf717a05d0e7ef2c14a0f9b8f4e571e18624f2539"
+    },
+    "behavior_pack/scripts/main.js": {
+      "bytes": 574,
+      "sha256": "247ac1f3ca049e51d328a0bb34c502354040aca511c8d654ae3cbb4a0214dcb5"
+    },
+    "behavior_pack/scripts/systems/economy.js": {
+      "bytes": 4321,
+      "sha256": "793f7b54a68fc9d9de4171ac930041694e602efc0dac0addc518d429c3837a28"
+    },
+    "behavior_pack/scripts/systems/player_service.js": {
+      "bytes": 1974,
+      "sha256": "cbcddb30759d6b6dadb4e966ed56790cc95894aef5baede13a81f92ea2c5b955"
+    },
+    "behavior_pack/scripts/ui/menu.js": {
+      "bytes": 6864,
+      "sha256": "aef045626667b0dca74001d4a6587414575d5d4c929931287976d51eff74512f"
+    },
+    "documentation/adr/0001-foundation.md": {
+      "bytes": 2122,
+      "sha256": "98bb50815d0bc55a57e2dce376b3ff396bce77dd8df6b801aa40530f814a8ba7"
+    },
+    "documentation/api_reference.md": {
+      "bytes": 5446,
+      "sha256": "cb8d2bef2c50dc466f825c70b71265dc150f4af547ca3833cae58300288fdbd5"
+    },
+    "documentation/architecture.md": {
+      "bytes": 7388,
+      "sha256": "15084275267bba8f21e7df0ecc0a26e634c90ca92d9e63ee7ba2b27c786a7a46"
+    },
+    "documentation/compatibility.md": {
+      "bytes": 4772,
+      "sha256": "03a3a8b55897356e2f3fd1e8354ee6da7e52a02c026091836ac795be4fab3021"
+    },
+    "documentation/configuration.md": {
+      "bytes": 3397,
+      "sha256": "4ac26793ea4265fba1193a97acd2b7843992e788a1922a96de64b1ba4eef49ef"
+    },
+    "documentation/credits.md": {
+      "bytes": 2502,
+      "sha256": "0c55a244e08afc4abf70c592516c56145d2528c569c96f37ea71eeb435d3c01d"
+    },
+    "documentation/data_model.md": {
+      "bytes": 7155,
+      "sha256": "81e48a2220aae2730bac60f5a7bfa6340df0a583178774bd679ad966bc920202"
+    },
+    "documentation/developer.md": {
+      "bytes": 4451,
+      "sha256": "43315b9786ddfb5f63c6bdd7b0829f9d9c40a8d2906d7d3e828f6f9f636f5cd7"
+    },
+    "documentation/device_checklist.md": {
+      "bytes": 3017,
+      "sha256": "7f3fbf1155bd2d7dc8fc861ba679ffd256fcb3ebda259856c213358cad71bbbc"
+    },
+    "documentation/fox_m1.md": {
+      "bytes": 4329,
+      "sha256": "080af6e9bb1b706624de8c45a4a7dbfaf91d916d85a38b28b4f7296ee04baf3c"
+    },
+    "documentation/installation.md": {
+      "bytes": 4365,
+      "sha256": "78e4ee0867dda43148c6af2c4893b540b4880b66aea5009423fee664ea3f5b6b"
+    },
+    "documentation/modules.csv": {
+      "bytes": 8504,
+      "sha256": "0905619d43393a345e1bb4b93bc795108878ad9d0a45eff90248f83311fd160c"
+    },
+    "documentation/repository.md": {
+      "bytes": 1115,
+      "sha256": "5f14dda6938d483ddad0b19c5ea8042ddd38b9485dffafbdb3017173fd919380"
+    },
+    "documentation/research.md": {
+      "bytes": 5167,
+      "sha256": "202deef14e2a70311d601cdbf6593d85113dd2ccbaf4faeb0d44e7f9881cc9d5"
+    },
+    "documentation/resources.csv": {
+      "bytes": 3699,
+      "sha256": "85e13bfd52565b6ee19479429831d6110e901302a459e686ecbd51c4676ae0f0"
+    },
+    "documentation/roadmap.md": {
+      "bytes": 3991,
+      "sha256": "facf765efdd05ca58e58a9a0fbf0cf4fd32f051f85853a8050af9239fe3b732e"
+    },
+    "documentation/security.md": {
+      "bytes": 4012,
+      "sha256": "abb3f10b02e9af5a993227a8873c63777ea8a3f5e4ad3b1f3758bd520cde998f"
+    },
+    "documentation/systems.md": {
+      "bytes": 6600,
+      "sha256": "b5be92b4621ac8ec4a42af48cef64ab32a1dad9bd06a4b4e13b7272acc616d6e"
+    },
+    "documentation/testing.md": {
+      "bytes": 4544,
+      "sha256": "5396dc53163722fb73d92ecb678674b991b4d7dac654e12615ad83e2305b34a2"
+    },
+    "documentation/troubleshooting.md": {
+      "bytes": 3420,
+      "sha256": "512fe92943374d2645bcb1c08f8e016b606931459c233ff42e987d683e4f617e"
+    },
+    "package-lock.json": {
+      "bytes": 2457,
+      "sha256": "edcd07e7d1d07e0989e6a51845a5f1abb194b11341054dcdde46fdfc7bad7f20"
+    },
+    "package.json": {
+      "bytes": 627,
+      "sha256": "c367692ef58e7a092251304c752be54c3fd553af76329386d73474e96add2515"
+    },
+    "project.json": {
+      "bytes": 583,
+      "sha256": "6b077d53b28cbbd688fd03bc1294e5af1215c9bdce200d427ddf4127a54675c0"
+    },
+    "research/api-types.json": {
+      "bytes": 2928,
+      "sha256": "d37541f53037a5b203cf3297dbb5dc5b689a5d40499018a7d255e98b92e5c2db"
+    },
+    "research/bds-download.json": {
+      "bytes": 407,
+      "sha256": "537f445f652891b22b571af4fc9a27e4592e05da67204fdc9f97d313a2a9153e"
+    },
+    "research/fox-component-inventory.json": {
+      "bytes": 2603,
+      "sha256": "bd0453dde88c239cb024d62941872895ce7f157a9c04268075ebef86cf32ab72"
+    },
+    "research/original-assets.json": {
+      "bytes": 279,
+      "sha256": "70e6045a7c6afbc01297901ef490b4c3dfe668efc2177b003abf91e231927dfe"
+    },
+    "research/server-package.json": {
+      "bytes": 683,
+      "sha256": "0039e2783dacae750fa94c5d0bc0f9aa17a365704ade16c9875e998d8cb807d0"
+    },
+    "research/server-ui-package.json": {
+      "bytes": 726,
+      "sha256": "1f0c6535c01e4ffc612d9a40f9b30e726c50e8b878c01c084ec2a8362a7c05ed"
+    },
+    "resource_pack/manifest.json": {
+      "bytes": 530,
+      "sha256": "7eff83796447ecc9e38c74484ffd866a5e9ac976d155de37f408371dcdc98393"
+    },
+    "resource_pack/pack_icon.png": {
+      "bytes": 902,
+      "sha256": "0a753e67c19f5136f9865e2cad72aa4e3c6722513a92e27eed48ca2f9eb46063"
+    },
+    "resource_pack/particles/level_up.json": {
+      "bytes": 1203,
+      "sha256": "8880e1a503cf6b65f7537e96b815e4c69ce6f36c778876c585fed9d67dadb23e"
+    },
+    "resource_pack/sounds/sound_definitions.json": {
+      "bytes": 615,
+      "sha256": "3d4534980fa23ee1c005351a8ca2ac1e9cd376f0211c572ad958bbd857c47db3"
+    },
+    "resource_pack/sounds/wolfverse/level_up.ogg": {
+      "bytes": 4153,
+      "sha256": "7da3071affe985e1c89d091ec44fe03221df729d70c9e57d25fb01a8ba1ff0f1"
+    },
+    "resource_pack/sounds/wolfverse/quest_complete.ogg": {
+      "bytes": 4009,
+      "sha256": "cfe919e1e7f456c93de58c310bb9901a5301a5b27d925c4886c2d461af9c255b"
+    },
+    "resource_pack/sounds/wolfverse/ui_open.ogg": {
+      "bytes": 3667,
+      "sha256": "2ca66326ee087c38178d4c9fb42553ff8c4b92d58135e1d1dbaf183883a324a4"
+    },
+    "resource_pack/texts/de_DE.lang": {
+      "bytes": 42,
+      "sha256": "d0a1858b0e559f30863725f5cdd91d11bfba1dd8cd460a3f1c16912ff9eb9cac"
+    },
+    "resource_pack/texts/en_US.lang": {
+      "bytes": 42,
+      "sha256": "4fb3c36e182648c7d8cffb2dd6d0f73134d58a05c3329f8e787a6998bdb9b75f"
+    },
+    "resource_pack/textures/item_texture.json": {
+      "bytes": 180,
+      "sha256": "cd8c5eda4eab5053d82ac524ec7bf61378fca268e7c67b9383201ca5e9d7773c"
+    },
+    "resource_pack/textures/items/wolfverse/codex.png": {
+      "bytes": 334,
+      "sha256": "01b0e59ec22521765a88f10e4f9b309dce13af2e3fab1c7115bb6164fd517338"
+    },
+    "resource_pack/textures/particle/wolfverse/spark.png": {
+      "bytes": 109,
+      "sha256": "939f823877cc6253ed8640fd0ae7dba7d1633a92aba9b08d9b6ce35dc1ef7d06"
+    },
+    "resource_pack/textures/ui/wolfverse/profile.png": {
+      "bytes": 290,
+      "sha256": "ced0ead246772aab76d7834d7b53b877e80d38501b13fecd7d3e2d0af43e0add"
+    },
+    "resource_pack/textures/ui/wolfverse/quest.png": {
+      "bytes": 309,
+      "sha256": "92811f06557c9ae580b8afc4876601a09c23e7e825f9cb7727de382f86bb4f5d"
+    },
+    "resource_pack/textures/ui/wolfverse/settings.png": {
+      "bytes": 390,
+      "sha256": "02f22d7619dd8b857311b029e54725aec3b121edf3cff8ec167d154950a2fb1e"
+    },
+    "resource_pack/textures/ui/wolfverse/shop.png": {
+      "bytes": 396,
+      "sha256": "712079ca8f3f172a63587aa7ffae69563ccf025aed61400b07770670ce04a1fd"
+    },
+    "test-results/api-typecheck.log": {
+      "bytes": 45,
+      "sha256": "5ceaca974ed0609f11da41d6f0e9dca9b503d35d1444dcfcb39a072879896369"
+    },
+    "test-results/bds-known-fixes.md": {
+      "bytes": 1384,
+      "sha256": "360403b12e0886a7c874349cd185a4284b14eb749f22ea931dc63d5fe084d26e"
+    },
+    "test-results/bds-phase-1.log": {
+      "bytes": 4782,
+      "sha256": "abfd0d523f68f5572a5da2f0e678e40fd5cc44e57d2d417cd2b50849b2c04916"
+    },
+    "test-results/bds-phase-2.log": {
+      "bytes": 4639,
+      "sha256": "e2d4b00ccad9c2b4267b5623128e62dc82afb51f2debea40dfd80afd2b891401"
+    },
+    "test-results/bds-verification.json": {
+      "bytes": 6978,
+      "sha256": "9303605da77932d8ca7ba869bfb8dc99646e2bf01d61c4e0f6147cb85ced29a4"
+    },
+    "test-results/build.log": {
+      "bytes": 304,
+      "sha256": "7f730a2eb5bff067a6a14884369b80ae26fa74ae06adccd5b6b42a2b4ea8598d"
+    },
+    "test-results/media-decoding.json": {
+      "bytes": 3304,
+      "sha256": "1c522272eaa4e022dbd1bce09fd6299646df7bb14438399c1b35a51ec0265568"
+    },
+    "test-results/node-unit.log": {
+      "bytes": 11902,
+      "sha256": "1fdba9ba82acfca4bfc0aaf33be33fb86a415e055febe70b282d8da3f40c888d"
+    },
+    "test-results/pack-validation.json": {
+      "bytes": 5131,
+      "sha256": "90537805888b3990687bf8633eabb4f7da3f6f32fe1524757d3944e27392d77d"
+    },
+    "test-results/pack-validation.log": {
+      "bytes": 241,
+      "sha256": "79e590b425c68f40fe9068c1a3becd9ab91473d90aeb2ff1438013258beb4954"
+    },
+    "test-results/python-tooling.log": {
+      "bytes": 1789,
+      "sha256": "b65bc6fb0301633eec9b331e37f7510cc5db7fc724c80bb09ca94bdbc674c218"
+    },
+    "test-results/verification.json": {
+      "bytes": 5276,
+      "sha256": "cb2785da593df1269a1db0e1a21020faa9b853ae6e6656169c28f9715fa6708b"
+    },
+    "tests/bds_probe.js": {
+      "bytes": 4075,
+      "sha256": "aa1ebd27ac35aad05d6bd09e5c533cc2cf2abd249e54c2edb471d8244e53b13c"
+    },
+    "tests/bedrock-loader.mjs": {
+      "bytes": 427,
+      "sha256": "cef3518b9995ddca6eed2fe0f7d3a2a2fd62e6a8bc8222991b0de0b6c5a9574c"
+    },
+    "tests/foundation.test.js": {
+      "bytes": 13773,
+      "sha256": "d73412cbd9fe9c4a653eea8e4b6cbdaaf2ce93aa9d06f81721375cb00a93fb29"
+    },
+    "tests/mocks/server-ui.js": {
+      "bytes": 651,
+      "sha256": "f4f87fd8d0a5f5108826332edc79c834c5ab7f132205755a991f1d3927fa4d1d"
+    },
+    "tests/mocks/server.js": {
+      "bytes": 4153,
+      "sha256": "03165fb77e3f9ded5ea9c4130f1df0b4c672ebdc618323bf6e87713d92e9ee4f"
+    },
+    "tests/runtime.test.js": {
+      "bytes": 6950,
+      "sha256": "3c375c931d4b8168e4b8fa4e0e5a1b33c685d567db8f0975c53c7edf84e6bdea"
+    },
+    "tests/test_documentation.py": {
+      "bytes": 2198,
+      "sha256": "02eb6c30767de5b361f1081c38d5ba01e464d67ac1bc807a49fe86210d07fe78"
+    },
+    "tests/test_tools.py": {
+      "bytes": 3248,
+      "sha256": "e9f778a6e46869ca4e55558f50021b02faa2c60b8cacda0d5c7479011d046c67"
+    },
+    "tools/bds_probe.py": {
+      "bytes": 7021,
+      "sha256": "093f80b9706081dd2c53b3c09115e3b70ccb3c63ebf59395ab0e4e8cbc24aa83"
+    },
+    "tools/build.py": {
+      "bytes": 2704,
+      "sha256": "097065c505decc4c2ae240f3dbd42f625947324cee9b5e021cb2e70995db8454"
+    },
+    "tools/create_assets.py": {
+      "bytes": 8515,
+      "sha256": "414eb7f1b388b45faad4a3ca5d5ca340b53ecfafcbd565867de8f50f8ddf57c8"
+    },
+    "tools/validate.py": {
+      "bytes": 8775,
+      "sha256": "7bbf06d7e296190662d7dc16365922a7353b47d21670c4b051667c1240652d0c"
+    },
+    "tools/verify.py": {
+      "bytes": 2183,
+      "sha256": "fa7291474da16048c88cbd7eafd3134266ee47bfa44dd60654e997c909ea4b09"
+    },
+    "tsconfig.json": {
+      "bytes": 348,
+      "sha256": "26f2feb3c52d20e3f05d9fc706edaa46bc897ec71754074eadf9e36d6b6bc894"
+    }
+  },
+  "limits": [
+    "source/asset backup, not Minecraft worlds or live player data",
+    "verification is for this commit only; no permanent automatic push daemon"
+  ]
+}

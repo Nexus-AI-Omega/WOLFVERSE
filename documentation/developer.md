@@ -28,7 +28,7 @@ npm run build
 npm run verify
 ```
 
-Node 20+ und Python 3.10+. TypeScript wird lokal über npm installiert. `package-lock.json` gehört ins Repository, `node_modules/` nicht. Keine Lifecycle-Scripts externer Pakete ausführen. Der Spielcore selbst hat keine npm-/Internet-Laufzeitabhängigkeit; Bedrock liefert die Manifestmodule.
+Node 20.6+ und Python 3.10+. TypeScript wird lokal über npm installiert. `package-lock.json` gehört ins Repository, `node_modules/` nicht. Keine Lifecycle-Scripts externer Pakete ausführen. Der Spielcore selbst hat keine npm-/Internet-Laufzeitabhängigkeit; Bedrock liefert die Manifestmodule.
 
 Die Builddatei enthält zwei `.mcpack`-Archive mit Manifest im jeweiligen ZIP-Root. Doppelte Builds aus identischen vorhandenen Packdateien sind bytegleich. Vorhandene Originalassets sind bereits eingecheckt. Optionaler Assetgenerator: `python3 tools/create_assets.py`; er benötigt Pillow, numpy und soundfile. Äquivalente Audio-Neugenerierung kann je Bibliotheks-/Ogg-Version anders serialisierte Bytes erzeugen; danach alle Hash-/BDS-Belege erneuern. Die UUIDs aus vorhandenem `project.json` werden dabei erhalten.
 
